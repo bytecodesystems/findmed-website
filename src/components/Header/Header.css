@@ -36,7 +36,7 @@ header {
 .header .profile {
     width: 50px;
     height: 50px;
-    background-image: url('assets/images/profile.jpg');
+    background-image: url(../assets/images/profile.jpg);
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
