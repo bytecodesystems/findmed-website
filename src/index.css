@@ -1,8 +1,16 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+
+  --white: #F2F2F2;
+  --light-white: #FCF8F8;
+  
+  --green-900: #025159;
+  --green-700: #038C7F;
+  --green-400: #0BBFBF;
+
+  --gray: #3F3A3A;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,7 +23,9 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    border: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body, html {
@@ -28,4 +38,13 @@ html {
 
 body {
     font-size: 1.4rem;
+}
+
+main {
+    min-height: calc(100svh - 80px);
+}
+
+.limit-section {
+    max-width: 1200px;
+    margin: 0 auto;
 }
