@@ -7,7 +7,7 @@ export function Login() {
             <Header />
             
             <main className='login-page'>
-                <section class="login-container">
+                <section className="login-container">
                     <div className='illustration'>
                         <img src='src/assets/images/findmed-logo2.png' alt='findmed logo' />
                         <img src='src/assets/images/medic-illustration.png' alt='medic illustration' />
