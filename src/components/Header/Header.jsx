@@ -5,7 +5,7 @@ export function Header() {
     return (
 			<header>
 				<div className='header limit-section'>
-					<img src='src/assets/images/logo.svg' alt='logo findmed' />
+					<img src='assets/images/logo.svg' alt='logo findmed' />
 
 					<nav>
 						<a href='#'>Home</a>

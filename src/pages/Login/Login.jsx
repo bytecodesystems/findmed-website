@@ -9,8 +9,8 @@ export function Login() {
             <main className='login-page'>
                 <section className="login-container">
                     <div className='illustration'>
-                        <img src='src/assets/images/findmed-logo2.png' alt='findmed logo' />
-                        <img src='src/assets/images/medic-illustration.png' alt='medic illustration' />
+                        <img src='assets/images/findmed-logo2.png' alt='findmed logo' />
+                        <img src='assets/images/medic-illustration.png' alt='medic illustration' />
                         <p>Medicina Familiar</p>
                     </div>
 
