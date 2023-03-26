@@ -9,8 +9,9 @@ function App() {
   return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='findmed-website/login' element={<Login />} />
-				<Route path='findmed-website/search' element={<Search />} />
+                <Route path='/findmed-website/' element={<Login/>} />
+				<Route path='/findmed-website/login' element={<Login/>} />
+				<Route path='/findmed-website/search' element={<Search/>} />
 			</Routes>
 		</BrowserRouter>
 	)
