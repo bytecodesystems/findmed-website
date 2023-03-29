@@ -48,3 +48,24 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* global animations */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

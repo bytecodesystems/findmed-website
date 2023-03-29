@@ -45,7 +45,7 @@
 .login-section {
     width: 35%;
     max-height: 100%;
-    padding: 50px;
+    padding: 10rem 50px;
     background-color: var(--white);
 }
 
@@ -136,6 +136,8 @@
 /* media queries */
 @media (max-width: 920px) {
     .login-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
         flex-direction: column;
         background-color: transparent;
         box-shadow: none;
@@ -148,7 +150,7 @@
     }
 
     .login-section {
-        max-height: 380px;
+        /* max-height: 380px; */
         min-width: 50px;
         border-radius: 25px;
         width: 90%;

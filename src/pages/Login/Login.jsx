@@ -4,6 +4,7 @@ import config from'../../../config.js'
 import './Login.css'
 
 export function Login() {
+    // instance navigate
     const navigate = useNavigate()
 
     // handle login submit
@@ -37,6 +38,7 @@ export function Login() {
             })
     }
 
+    // render
     return (
         <>
             <Header />

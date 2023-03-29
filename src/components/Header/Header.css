@@ -4,7 +4,7 @@ header {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.912);
 }
 
-.header {
+header div {
     width: 100%;
     height: 100%;
     display: flex;
@@ -13,31 +13,125 @@ header {
     align-items: center;
 }
 
-.header img {
+header div img {
     height: 50px;
 }
 
-.header nav {
+header div .profile {
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/images/profile.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+}
+
+/* header computer */
+.header-computer nav {
     display: flex;
     align-items: center;
     gap: 2.4rem;
 }
 
-.header nav a {
+.header-computer nav a {
     color: var(--gray);
     font-size: 1.5rem;
-    transition: all .4ms ease-in-out;
+    transition: all .3s ease;
 }
 
-.header nav a:hover {
+.header-computer nav a:hover {
     color: var(--green-700);
 }
 
-.header .profile {
-    width: 50px;
-    height: 50px;
-    background-image: url(../assets/images/profile.jpg);
-    background-size: cover;
-    background-position: center center;
-    border-radius: 50%;
+/* header for mobile devices */
+.header-mobile {
+    display: none;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: var(--green-400);
+    color: white;
+    padding: 1.4rem;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top: 22%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    height: fit-content;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 4.6rem;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all .05s ease-in-out;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: var(--green-400)
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: var(--green-900);
+}
+
+/* media queries */
+@media (max-width: 1250px) {
+    .header-computer { max-width: 1100px !important }
+}
+
+@media (max-width: 1160px) {
+    .header-computer { max-width: 1000px !important }
+}
+
+@media (max-width: 1050px) {
+    .header-computer { max-width: 950px !important }
+}
+
+@media (max-width: 980px) {
+    .header-computer { max-width: 900px !important }
+}
+
+@media (max-width: 920px) {
+    .header-computer { max-width: 800px !important }
+}
+
+@media (max-width: 840px) {
+    .header-computer { max-width: 750px !important }
+}
+
+@media (max-width: 780px) {
+    .header-computer {
+        display: none;
+    }
+
+    .header-mobile {
+        display: flex;
+    }
 }
