@@ -2,6 +2,8 @@ import './Search.css'
 import { Header } from '../../components/Header/Header'
 
 export function Search() {
+
+    // render
     return (
         <>
             <Header />
