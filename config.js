@@ -1,5 +1,5 @@
 const config = {
-    API_URL: "http://localhost:8080"
+    API_URL: "https://findmed-api.onrender.com",
 }
 
 export default config
