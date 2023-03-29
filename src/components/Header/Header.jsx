@@ -9,8 +9,8 @@ export function Header() {
 
     const handleDropdownToggle = () => {
         setIsDropdownOpen(!isDropdownOpen)
-    }
 
+    }
     // render
     return (
         <header>
